@@ -19,12 +19,10 @@ if (lengthChoice >= 8 && lengthChoice <= 128) {
   var lower = confirm("Would you like to include letters in your password?")
     if (lower == true) {
       possiblechars += lowercaseletters
-      console.log(possiblechars)
     }
   var upper = confirm("Would you like uppercase letters included in your password?")
     if (upper == true) {
       possiblechars += upperCase
-      console.log(possiblechars)
     }
   var numbers = confirm("Would you like to include numbers in your password?")
     if (numbers == true) {
